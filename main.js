@@ -30,8 +30,8 @@ function gotPoses(results)
 }
 
 function draw(){
-Image(video,0,0,300,300);
-Image(clown_nose,noseX,noseY,30,30);
+image(video,0,0,300,300);
+image(clown_nose,noseX,noseY,30,30);
 }
 
 function take_snapshot(){
